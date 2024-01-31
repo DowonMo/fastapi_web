@@ -58,11 +58,3 @@ data : Hello World!! 텍스트 데이터가 클라이언트에 전송되도록 �
 main.py를 생성후 다음과 같이 코드를 추가한다.
 
 ```python
-from fastapi import FastAPI
-
-app = FastAPI()
-
-@app.get('/')
-async def main():
-    return {"message":"Hello World"}
-```
